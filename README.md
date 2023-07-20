@@ -16,7 +16,11 @@ clone https://github.com/oZoon/location-weather.git
 cd location-weather
 npm i
 переименовать .env.example в .env
-зарегистрироваться на двух сервисах - https://openweathermap.org/ и https://www.graphhopper.com/, получить ключи от каждого, вставить в соответстующие переменные в .env
+зарегистрироваться на двух сервисах:
+1. https://openweathermap.org/ и 
+2. https://www.graphhopper.com/,
+получить ключи от каждого, вставить в соответстующие переменные в .env
+
 npm run start - для разработки
 npm run build - для продакшн
 
